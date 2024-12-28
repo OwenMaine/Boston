@@ -1,0 +1,75 @@
+.navbar-brand img {
+    transition: all 0.3s ease;
+}
+
+.navbar-brand:hover img {
+    transform: scale(1.05);
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.btn-primary {
+    background-color: #004A8F; /* You can adjust this to match your brand color */
+    border-color: #004A8F;
+}
+
+.btn-primary:hover {
+    background-color: #003666;
+    border-color: #003666;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-brand img {
+        height: 50px;
+    }
+}
+
+.jumbotron {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/trailer-hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.text-primary {
+    color: #004A8F !important; /* Adjust to match your brand color */
+}
+
+.btn-primary {
+    background-color: #004A8F;
+    border-color: #004A8F;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #003666;
+    border-color: #003666;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #004A8F;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    color: #003666;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .jumbotron h1.display-3 {
+        font-size: 2.5rem;
+    }
+}
